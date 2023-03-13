@@ -28,7 +28,7 @@ def main(args):
         if count:
             print(f'{password} was found {count} times... you should change your password')
         else:
-            print(f'{password} was not found. Carry on!')
+            print(f'your password {password} has not been breached')
     
 
 if __name__ == '__main__':
